@@ -1,0 +1,28 @@
+#!/bin/bash
+clear
+echo
+echo -e "\e[93m\e[1mStatus"
+echo
+git status
+echo
+echo -e -n "\e[93mPress enter to continue..."
+read -p ""
+git add .
+echo
+m=
+echo -e -n "\e[96mCommit message: "
+read m
+while [[ -z "$m" ]]; do
+	echo -e "\e[91mYou must input a commit message."
+	echo -e -n "\e[96mCommit message: "
+	read m
+done
+echo
+echo -e "\e[37mUploading to git..."
+git commit -m "$m"
+git push
+echo
+echo -e "\e[92mSuccess"
+read -t .5 -p ""
+clear
+exit
