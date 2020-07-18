@@ -3,7 +3,7 @@
 *By: Joel Howell*
 
 ## About 
-This project will eventually use addressable LEDs instead of a terminal as output.
+This project will eventually implement a GUI interface.
 
 ## Controls
 * Up Arrow: Rotate by 90 degrees
@@ -12,7 +12,7 @@ This project will eventually use addressable LEDs instead of a terminal as outpu
 * Down Arrow/Space: Drop
 
 ## To use
-First, clone the repository and install the below dependencies. Then, use make to build Tetris and then run the exectuable.
+First, clone the repository and install the below dependencies. Then, use 'make' to build Tetris and then run the exectuable.
 
 ### Ubuntu Dependencies
 ```
@@ -29,7 +29,6 @@ $ make
 ```
 $ ./tetris
 ```
-
 
 ## License
 This project is licensed under the MIT License, see the [LICENSE.md](LICENSE "MIT License") file for details.
