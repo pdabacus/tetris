@@ -6,3 +6,7 @@ tetris
 
 # Ignore vscode
 vscode/
+
+# Ignore scripts
+push
+compile
