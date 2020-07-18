@@ -55,7 +55,7 @@ int rotate(int x, int y, int r)
     switch (r % 4)
     {
         case 0:
-            i = (1;
+            
             break;
         case 1:
             printf("90");
