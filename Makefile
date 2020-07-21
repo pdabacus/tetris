@@ -1,6 +1,13 @@
 # Makefile for C projects
 
-TARGET			= tetris
+PROGRAM_NAME 	= tetris
+
+# windows or linux
+ifeq ($(OS), Windows_NT)
+	TARGET = $(PROGRAM_NAME).exe
+else
+	TARGET = $(PROGRAM_NAME)
+endif
 
 BIN_DIR			= bin/
 SRC_DIR			= src/
@@ -8,7 +15,7 @@ SRCS			= $(wildcard $(SRC_DIR)*.c)
 HEADERS			= $(wildcard $(SRC_DIR)*.h)
 
 GCC 			= gcc
-GCCOPTS			= -Wall -ansi -std=c99
+GCCOPTS			= -Wall -Wextra -pedantic -ansi -std=c99
 
 RM				= rm -rf
 MKDIR			= mkdir -p

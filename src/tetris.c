@@ -13,15 +13,6 @@
 
 
 
-void draw(Tetris board)
-{
-    int i;
-    for (i = 0; i < LENGTH; i++)
-    {
-
-    }
-}
-
 
 int getIndex(int r, int c)
 {
@@ -31,12 +22,7 @@ int getIndex(int r, int c)
 void startGame(void)
 {
 
-    int i;
-    for (i = 0; i < LENGTH; i++)
-        gameBoard[i] = i;
     
-    
-    draw(gameBoard);
     
 
   
@@ -49,26 +35,26 @@ void startGame(void)
 }
 
 
-int rotate(int x, int y, int r)
-{
-    int i = 0;
-    switch (r % 4)
-    {
-        case 0:
-            
-            break;
-        case 1:
-            printf("90");
-            break;
-        case 2:
-            printf("180");
-            break;
-        case 3:
-            printf("270");
-            break;
-        default:
-            printf("\nFatal error, unknown rotation.");
-            return EXIT_FAILURE;
-    }
-    return i;
-}
+// int rotate(int x, int y, int r)
+// {
+//     int i = 0;
+//     switch (r % 4)
+//     {
+//         case 0:
+//             printf("90");
+//             break;
+//         case 1:
+//             printf("90");
+//             break;
+//         case 2:
+//             printf("180");
+//             break;
+//         case 3:
+//             printf("270");
+//             break;
+//         default:
+//             printf("\nFatal error, unknown rotation.");
+//             return EXIT_FAILURE;
+//     }
+//     return i;
+// }
