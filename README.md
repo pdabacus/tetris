@@ -25,7 +25,7 @@ $ sudo apt-get install gcc
 ```
 
 ### On Windows
-Download and install MinGW or any other alternative that contains gcc and make. Then add the following to your `PATH` under `system environment variables`:
+Download and install MinGW or an alternative that contains gcc and make. Then add the following to your `PATH` under `system environment variables`:
 
 ```
 C:\MinGW\bin
