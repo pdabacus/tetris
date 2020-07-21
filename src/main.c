@@ -24,9 +24,9 @@
 #include <string.h> 
 
 #if defined(_WIN32) || defined(_WIN64)
-    #define PLATFORM_NAME "windows"
+    #define PLATFORM_NAME "WINDOWS"
 #elif defined(__linux__)
-    #define PLATFORM_NAME "linux"
+    #define PLATFORM_NAME "LINUX"
 #else
     #define PLATFORM_NAME NULL
 #endif
@@ -46,6 +46,7 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
+		puts("NORMAL MODE");
 		puts(getPlatformName());
 	}
 	else

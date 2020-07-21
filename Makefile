@@ -9,6 +9,8 @@ else
 	TARGET = $(EXECUTABLE)
 endif
 
+# set src & bin directories set gccopts
+
 BIN_DIR			= bin/
 SRC_DIR			= src/
 SRCS			= $(wildcard $(SRC_DIR)*.c)
