@@ -38,12 +38,12 @@ $ make
 ```
 
 ### Run Executable
-###### Ubuntu
+##### Ubuntu
 ```
 $ ./tetris
 ```
 
-###### Windows
+##### Windows
 ```
 > tetris.exe
 ```
