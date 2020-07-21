@@ -1,12 +1,12 @@
 # Makefile for C projects
 
-PROGRAM_NAME 	= tetris
+EXECUTABLE 	= tetris
 
 # windows or linux
 ifeq ($(OS), Windows_NT)
-	TARGET = $(PROGRAM_NAME).exe
+	TARGET = $(EXECUTABLE).exe
 else
-	TARGET = $(PROGRAM_NAME)
+	TARGET = $(EXECUTABLE)
 endif
 
 BIN_DIR			= bin/
