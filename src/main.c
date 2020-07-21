@@ -102,12 +102,6 @@ int main(int argc, char *argv[])
 			}
 		}		
 	}
-
-	if (strcmp(getPlatformName(), "windows") == 0)
-	{
-		system("pause"); 
-	}
-	
 	return EXIT_SUCCESS;
 }
 
