@@ -5,11 +5,12 @@
 ## About 
 This is tetris written in pure C and will eventually implement a GUI interface.
 
+
 ## Controls
-* Up Arrow: Rotate by 90 degrees
-* Left Arrow: Move Left
-* Right Arrow: Move Right
-* Down Arrow/Space: Drop
+* <kbd>↑</kbd> Up Arrow: Rotate by 90 degrees
+* <kbd>←</kbd> Left Arrow: Move Left
+* <kbd>→</kbd> Right Arrow: Move Right
+* <kbd>↓</kbd>/<kbd>Space</kbd> Down Arrow/Space: Drop
 
 ## To use
 First, clone the repository and install the below dependencies. Then, use 'make' to build Tetris and then run the exectuable.
